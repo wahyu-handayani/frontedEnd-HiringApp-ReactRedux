@@ -269,7 +269,9 @@ class Company extends Component {
           }}
           variant="filled"
         />
-        <button type="button" class="btn btn-primary btn-lg btn-block">Add Project</button>
+        <Link to='/project'>
+          <button type="button" class="btn btn-primary btn-lg btn-block">Add Project</button>
+          </Link>
         <>
           <SweetAlert
             show={this.state.profileClicked}

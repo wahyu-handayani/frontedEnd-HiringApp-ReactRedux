@@ -14,6 +14,7 @@ import EngineerCard from './components/EngineerCard'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Card from './components/Card';
+import Project from './components/Project';
 
 class App extends Component {
   render() {
@@ -30,7 +31,7 @@ class App extends Component {
             <Route exact path="/company" component={Company} />
             <Route path='/card' exact component={Card} />
             <Route path='/eCard' exact component={EngineerCard} />
-            
+            <Route path='/project' exact component={Project} />
           </div>
         </div>
       </Router>
